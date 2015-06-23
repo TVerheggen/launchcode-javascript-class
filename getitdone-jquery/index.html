@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+
+		<link rel="stylesheet" href="css/getitdone.css">
+		<script type="text/javascript" src="js/getitdone.js"></script>
+		
+		<title>To Do List</title>
+	</head>
+
+	<body>
+		<header>	
+			<div class="jumbotron">
+				<h1> My To Do List </h1>
+				<form action="index.html" method="post">
+				    <fieldset>
+				        <div class="form-group">
+				            <input autofocus class="form-control" id="inputfield" placeholder="Type Something" type="text"/>
+				        </div>	
+				        <div class="form-group">
+				            <button type="submit" class="btn btn-default" id="btn1">add</button>
+				        </div>
+				    </fieldset>
+				</form>
+			</div>		
+		</header>	
+
+		<main>
+			<div class="container">
+			<div class="row">
+				<div class="col-md-6">	
+					<ul id="list">
+					</ul>
+				</div>
+
+				<div class="col-md-6" class="container-done">
+					<h2 class="title">Done</h2>
+					<ul id="list-done">
+					</ul>	
+				</div>	
+			</div>	
+			</div>
+		</main>	
+
+
+		
+<!--
+			 <div class="dropdown">
+			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Due
+			  	<span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+			    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Today</a></li>
+			    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">This Week</a></li>
+			    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">This Month</a></li>
+			  </ul>
+			</div>
+	-->		
+		</main>	
+	</body>	
+</html>
+
